@@ -15,8 +15,8 @@ Demo:
 
     $ from TCBP import TCBP
     $ import torch
-    $ data = torch.rand([10,8192,4,7,7]) 
-    $ tcbp = TCBP(input_dim1=8192, input_dim2=8192,output_dim=512, temporal_window=4, spat_x=7, spat_y=7)
+    $ data = torch.rand([10,8192,4,1,1]) 
+    $ tcbp = TCBP(input_dim1=8192, input_dim2=8192,output_dim=512, temporal_window=4, spat_x=1, spat_y=1)
     $ tcbp_representation = tcbp(data,data)
     $ tcbp_representation.shape  
     $ ---> torch.Size([10, 512])
