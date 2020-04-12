@@ -10,10 +10,16 @@ and [Rainer Stiefelhagen](https://cvhci.anthropomatik.kit.edu/people_596.php)
 In IEEE International Conference on Computer Vision (ICCV) workshop on Large Scale Holistic Video Understanding, 2019 
 
 ### Temporal Compact Bilinear Pooling (TCBP) Layer
-Demo
+
+Demo:
+
     $ from TCBP import TCBP
     $ import torch
-    $ x = torch.rand([10,512,4,7,7]) 
+    $ data = torch.rand([10,512,4,7,7]) 
+    $ tcbp = TCBP(input_dim1=512, input_dim2=512,output_dim=256, temporal_window=4, spat_x=7, spat_y=7)
+    $ tcbp_representation = tcbp(data,data)
+    $ tcbp_representation.shape  
+    $ ---> torch.Size([10, 256])
 
 ### Citation
 
