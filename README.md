@@ -1,4 +1,4 @@
-# Temporal Compact Bilinear Pooling (TCBP)
+
 
 # Deep Multimodal Feature Encoding for Video Ordering
 ### [Paper](https://arxiv.org/pdf/2004.02205.pdf) <br>
@@ -9,6 +9,11 @@ and [Rainer Stiefelhagen](https://cvhci.anthropomatik.kit.edu/people_596.php)
 
 In IEEE International Conference on Computer Vision (ICCV) workshop on Large Scale Holistic Video Understanding, 2019 
 
+### Temporal Compact Bilinear Pooling (TCBP) Layer
+Demo
+    $ from TCBP import TCBP
+    $ import torch
+    $ x = torch.rand([10,512,4,7,7]) 
 
 ### Citation
 
