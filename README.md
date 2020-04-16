@@ -25,7 +25,7 @@ Demo:
 
 If you find the code and datasets useful in your research, please cite:
     
-    @inproceedings{ssiam,
+    @inproceedings{tcbp,
         author    = {Sharma, Vivek and Tapaswi, Makarand and Stiefelhagen, Rainer}, 
         title     = {Deep Multimodal Feature Encoding for Video Ordering}, 
         booktitle = {IEEE ICCV Workshop on Large Scale Holistic Video Understanding},
